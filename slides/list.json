@@ -1,5 +1,9 @@
 [
     "index.md",
     "who-am-i.html",
-    "what-is-codeception/what-is-codeception.html"
+    "what-is-codeception/what-is-codeception.html",
+    [
+      "installation.html",
+      "setup.html"
+    ]
 ]
