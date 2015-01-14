@@ -28,7 +28,10 @@ module.exports = (grunt) ->
                 tasks: ['coffeelint']
 
             jshint:
-                files: ['js/*.js']
+                files: [
+                  'js/*.js',
+                  '!js/highlight.pack.js'
+                ]
                 tasks: ['jshint']
         
             sass:
@@ -68,7 +71,10 @@ module.exports = (grunt) ->
             options:
                 jshintrc: '.jshintrc'
 
-            all: ['js/*.js']
+            all: [
+              'js/*.js',
+              '!js/highlight.pack.js'
+            ]
 
         copy:
 
