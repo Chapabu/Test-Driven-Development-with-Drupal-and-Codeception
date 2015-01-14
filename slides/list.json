@@ -5,5 +5,7 @@
     [
         "codeception-basics/installation.html",
         "codeception-basics/setup.html"
-    ]
+    ],
+    "demo-time.html",
+    "what-feature-do-we-want-to-implement.html"
 ]
