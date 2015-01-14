@@ -4,7 +4,7 @@
     <pre><code class="gherkin">
         Scenario: Authors should be able to create Articles
         Given I have a user named "Bill"
-        And the "Bill" has the role of Author
+        And "Bill" has the role of Author
         When "Bill" tries to create an Article node
         Then "Bill" should see the node/add page for an Article
         And "Bill" should be able to create an Article node
