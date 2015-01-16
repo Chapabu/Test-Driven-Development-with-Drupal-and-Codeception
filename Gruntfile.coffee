@@ -35,7 +35,7 @@ module.exports = (grunt) ->
                 tasks: ['jshint']
         
             sass:
-                files: ['css/source/moon.scss']
+                files: ['css/source/{,**/}*.scss']
                 tasks: ['sass']
 
         sass:
