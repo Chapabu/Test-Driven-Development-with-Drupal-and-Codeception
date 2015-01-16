@@ -6,9 +6,14 @@
         "codeception-basics/installation.html",
         "codeception-basics/setup.html"
     ],
-    "demo-time.html",
-    "what-feature-do-we-want-to-implement.html",
-    "lets-start-with-a-test.html",
-    "generated-test.html",
-    "how-might-our-test-look.html"
+    [
+        "example-test/demo-time.html",
+        "example-test/what-feature-do-we-want-to-implement.html",
+        "example-test/lets-start-with-a-test.html",
+        "example-test/generated-test.html",
+        "example-test/how-might-our-test-look.html",
+        "example-test/first-draft.html",
+        "example-test/lets-run-it.html",
+        "example-test/it-failed.html"
+    ]
 ]
