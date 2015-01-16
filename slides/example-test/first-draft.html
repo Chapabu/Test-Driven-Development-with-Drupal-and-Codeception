@@ -11,7 +11,7 @@ public function an_author_can_create_article_content(AcceptanceTester $I)
     $I->expect('to be able to create an Article node.');
 
     $I->amOnPage('/user/login');
-    $I->submitForm('#user-login', ['name' => 'admin', 'pass' => 'admin']);
+    $I->submitForm('#user-login', ['name' => 'Bill', 'pass' => 'password']);
     $I->seeElement('body.logged-in');
     $I->amOnPage('/node/add/article');
     $I->seeResponseCodeIs('200');

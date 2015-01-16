@@ -1,0 +1,20 @@
+<h2>What is a StepObject?</h2>
+
+<div class="fragment">
+    A StepObject is a class consisting of methods containing actions (steps) that are run.
+</div>
+
+<div class="fragment">
+    <h4>before</h4>
+    <pre><code class="php">
+        $I->amOnPage('/user/login');
+        $I->submitForm('#user-login', ['name' => 'Bill', 'pass' => 'password']);
+    </code></pre>
+</div>
+
+<div class="fragment">
+    <h4>After</h4>
+    <pre><code class="php">
+        $I->login('Bill', 'password');
+    </code></pre>
+</div>
