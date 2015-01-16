@@ -2,6 +2,11 @@
     "index.md",
     "who-am-i.html",
     [
+        "tdd/what-is-tdd.html",
+        "tdd/tdd-workflow.html",
+        "tdd/why-use-tdd.html"
+    ],
+    [
         "what-is-codeception/codeception-logo.html",
         "what-is-codeception/what-is-codeception.html",
         "what-is-codeception/why-choose-codeception.html"
@@ -31,10 +36,10 @@
         "extending-codeception/pageobjects/example-pageobject.html"
     ],
     [
-      "extending-codeception/stepobjects/stepobjects.html",
-      "extending-codeception/stepobjects/what-is-a-stepobject.html",
-      "extending-codeception/stepobjects/creating-stepobjects.html",
-      "extending-codeception/stepobjects/example-stepobject.html"
+        "extending-codeception/stepobjects/stepobjects.html",
+        "extending-codeception/stepobjects/what-is-a-stepobject.html",
+        "extending-codeception/stepobjects/creating-stepobjects.html",
+        "extending-codeception/stepobjects/example-stepobject.html"
     ],
     [
         "refactoring/refactoring-time.html",
