@@ -1,7 +1,10 @@
 [
     "index.md",
     "who-am-i.html",
-    "what-is-codeception/what-is-codeception.html",
+    [
+        "what-is-codeception/codeception-logo.html",
+        "what-is-codeception/what-is-codeception.html"
+    ],
     [
         "codeception-basics/installation.html",
         "codeception-basics/setup.html"
@@ -18,4 +21,5 @@
         "example-test/why-did-it-fail.html",
         "example-test/it-passed.html"
     ]
+
 ]
