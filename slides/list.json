@@ -19,7 +19,7 @@
         "example-test/lets-run-it.html",
         "example-test/it-failed.html",
         "example-test/why-did-it-fail.html",
-        "example-test/it-passed.html"
+        "example-test/it-passed.html",
+        "example-test/success.html"
     ]
-
 ]
